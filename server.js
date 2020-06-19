@@ -4650,7 +4650,7 @@ var maintainloop = (() => {
                 // Slowly upgrade them
                 bots.forEach(o => {
                     if (o.skill.level < 45) {
-                        o.skill.score += 100;
+                        o.skill.score += 750;
                         o.skill.maintain();
                     }
                 });
