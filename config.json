@@ -17,13 +17,14 @@
   "RANDOM_COLORS": false,
   "BANNED_CHARACTER_REGEX": "/[\uFDFD\u200E\u0000]/gi", 
   "ROOM_SETUP": [
-    [ "roid", "norm", "norm", "roid" ],
-    [ "norm", "nest", "roid", "norm" ],
-    [ "norm", "roid", "nest", "norm" ],
-    [ "roid", "norm", "norm", "roid" ]
+    [ "roid", "roid", "roid", "roid", "roid" ],
+    [ "roid", "norm", "norm", "norm", "roid" ],
+    [ "roid", "norm", "nest", "norm", "roid" ],
+    [ "roid", "norm", "norm", "norm", "roid" ],
+    [ "roid", "roid", "roid", "roid", "roid" ]
   ],
-  "X_GRID": 4,
-  "Y_GRID": 4,
+  "X_GRID": 5,
+  "Y_GRID": 5,
   "DAMAGE_CONSTANT": 0.6,
   "KNOCKBACK_CONSTANT": 1,
   "ROOM_BOUND_FORCE": 0.01,
