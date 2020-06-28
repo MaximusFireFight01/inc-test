@@ -11,10 +11,10 @@
   "runSpeed": 1.5,
   "maxHeartbeatInterval": 300000,
   "verbose": true,
-  "WIDTH": 7000,
-  "HEIGHT": 7000,
+  "WIDTH": 6000,
+  "HEIGHT": 6000,
   "MODE": "ffa",
-  "RANDOM_COLORS": false,
+  "RANDOM_COLORS": true,
   "BANNED_CHARACTER_REGEX": "/[\uFDFD\u200E\u0000]/gi", 
   "ROOM_SETUP": [
     [ "roid", "roid", "rock", "norm", "norm", "norm", "norm", "norm", "norm", "rock", "roid", "roid" ],
