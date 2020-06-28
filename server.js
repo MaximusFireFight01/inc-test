@@ -1859,7 +1859,12 @@ class Entity {
             set.UPGRADES_TIER_5.forEach((e) => {
                 this.upgrades.push({ class: e, level: c.TIER_5, index: e.index,});
             });
-        }    
+        }
+        if (set.UPGRADES_TIER_6 != null) { 
+            set.UPGRADES_TIER_6.forEach((e) => {
+                this.upgrades.push({ class: e, level: c.TIER_6, index: e.index,});
+            });
+        }
         if (set.SIZE != null) {
             this.SIZE = set.SIZE * this.squiggle;
             if (this.coreSize == null) { this.coreSize = this.SIZE; }
