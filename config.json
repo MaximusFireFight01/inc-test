@@ -47,12 +47,12 @@
   ],
   "FOOD_NEST": [
     0, 
-    55555,
-    55555,
-    55555,
-    55555,
-    55555,
-    55555,
+    0,
+    0,
+    0.75,
+    0.25,
+    0.1,
+    0.03,
     0
   ],
   "MAX_SKILL": 10,
@@ -69,8 +69,8 @@
   "SKILL_LEAK": 0,
   "STEALTH": 4,
   "MIN_SPEED": 0.001,
-  "FOOD_AMOUNT": 0.3,
+  "FOOD_AMOUNT": 0.2,
   "SKILL_BOOST": 5,
-  "BOTS": 0,
+  "BOTS": 10,
   "GLASS_HEALTH_FACTOR": 2
 }
