@@ -2984,8 +2984,8 @@ const sockets = (() => {
                         },
                         commands = m[2];
                     // Verify data
-                    if (typeof target.x !== 'number' || typeof target.y !== 'number' || typeof commands !== 'number' || !Number.isNaN(target.x) || !Number.isNaN(target.y) || !Number.isFinite(target.x) || !Number.isFinite(target.y)) { socket.kick('Weird downlink.'); return 1; }
-                    if (commands > 255) { socket.kick('Malformed command packet.'); return 1; }
+                  if (typeof target.x !== 'number' || typeof target.y !== 'number' || typeof commands !== 'number' || Number.isNaN(target.x) || Number.isNaN(target.y) || !Number.isFinite(target.x) || !Number.isFinite(target.y)) { socket.kick('Weird downlink.'); return 1; }                    
+                  if (commands > 255) { socket.kick('Malformed command packet.'); return 1; }
                     // Put the new target in
                     player.target = target
                     // Process the commands
