@@ -4816,7 +4816,8 @@ var maintainloop = (() => {
                 [3]: 0, // Penta
                 [4]: 0, // Beta
                 [5]: 0, // Alpha
-                [6]: 0,
+                [6]: 0, // Omega
+                [7]: 0, // Hyper
                 tank: 0,
                 sum: 0,
             };
@@ -4827,7 +4828,8 @@ var maintainloop = (() => {
                 [3]: 0, // Penta
                 [4]: 0, // Beta
                 [5]: 0, // Alpha
-                [6]: 0,
+                [6]: 0, // Omega
+                [7]: 0, // Hyper
                 sum: 0,
             };
             // Do the censusNest
