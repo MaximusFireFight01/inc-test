@@ -4673,7 +4673,7 @@ var maintainloop = (() => {
                 bots = bots.filter(e => { return !e.isDead(); });
                 // Slowly upgrade them
                 bots.forEach(o => {
-                  if (o.upgrades) o.define(ran.choose(o.upgrades)); // Or define() IDK what works. I barely use arras anymore.
+                 // if (o.upgrades) o.define(ran.choose(o.upgrades)); // Or define() IDK what works. I barely use arras anymore.
                   if (o.skill.level < 45) {
                         o.skill.score += 750;
                         o.skill.maintain();
